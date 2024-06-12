@@ -1,0 +1,55 @@
+/* ChatPage.jsx -------------------------*/
+
+.ChatPage{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+/* ChatWindow.jsx ------------------------*/
+.ChatWindow{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: hidden;
+}
+.ChatWindow:hover{
+    overflow-y: auto;
+}
+
+/* Input.jsx ------------------------------*/
+.input{
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    height: 100%;
+    flex: 1;
+    border-radius: 5px;
+    margin: 0;
+}
+.btn{
+    background-color: rgb(198, 208, 217);
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+/* Message.jsx ---------------------- */
+.bot{
+    align-self: flex-start;
+    background-color: rgb(87, 177, 177);
+    border-radius: 5px;
+    padding: 5px;
+}
+.user{
+    align-self: flex-end;
+    background-color: rgb(171, 182, 58);
+    border-radius: 5px;
+    padding: 5px;
+}
